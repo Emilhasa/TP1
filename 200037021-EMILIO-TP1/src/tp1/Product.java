@@ -67,7 +67,7 @@ public class Product {
 		if (getQtyStock() > 0) {
 			if (qtySell > getQtyStock()) {
 				System.out.println("Quantidade solicitada acima da disponivel.");
-			}else {
+			}else{
 				setQtyStock(getQtyStock() - qtySell);
 			}
 			
