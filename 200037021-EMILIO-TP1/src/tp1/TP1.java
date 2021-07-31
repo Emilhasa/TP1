@@ -113,7 +113,7 @@ public class TP1 {
 			}
 		}
 		
-		if (a == 'S' || a =='s') {
+		if (a == 'S' || a == 's') {
 			System.out.print("\nInsira o nome do cliente: ");
 			input.nextLine();
 			String name = input.nextLine();
